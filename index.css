@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-image: url("./img/subwayBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#container {
+  border: 1px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 55vh;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #232323;
+  border-radius: 1rem;
+  overflow: scroll;
+}
+
+#info {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#number {
+  font-size: 5rem;
+}
+
+#buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8rem;
+}
+
+button {
+  width: 10rem;
+  border: 1px solid goldenrod;
+  cursor: pointer;
+  color: white;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 7px;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#increment {
+  background-color: red;
+}
+
+#save {
+  background-color: green;
+}
+
+#entries {
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
